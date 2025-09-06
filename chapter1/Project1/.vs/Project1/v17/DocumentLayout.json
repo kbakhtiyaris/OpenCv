@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\c\u002B\u002B\\Project1\\",
+  "WorkspaceRootPath": "D:\\c\u002B\u002B\\OpenCv\\chapter1\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35A563D6-7376-4A39-8D2D-CDEC0731CDD3}|Project1\\Project1.vcxproj|D:\\c\u002B\u002B\\Project1\\Project1\\Chapter1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{35A563D6-7376-4A39-8D2D-CDEC0731CDD3}|Project1\\Project1.vcxproj|D:\\c\u002B\u002B\\OpenCv\\chapter1\\Project1\\Project1\\Chapter1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{35A563D6-7376-4A39-8D2D-CDEC0731CDD3}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Chapter1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Chapter1.cpp",
-              "DocumentMoniker": "D:\\c\u002B\u002B\\Project1\\Project1\\Chapter1.cpp",
+              "DocumentMoniker": "D:\\c\u002B\u002B\\OpenCv\\chapter1\\Project1\\Project1\\Chapter1.cpp",
               "RelativeDocumentMoniker": "Project1\\Chapter1.cpp",
-              "ToolTip": "D:\\c\u002B\u002B\\Project1\\Project1\\Chapter1.cpp",
+              "ToolTip": "D:\\c\u002B\u002B\\OpenCv\\chapter1\\Project1\\Project1\\Chapter1.cpp",
               "RelativeToolTip": "Project1\\Chapter1.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

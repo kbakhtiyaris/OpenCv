@@ -1,3 +1,3 @@
-﻿  c3_pro1.cpp
-D:\c++\OpenCv\c2_Project1\c2_Project1\c3_pro1.cpp(10,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  face_detection.cpp
+D:\c++\OpenCv\c2_Project1\c2_Project1\face_detection.cpp(13,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
   c2_Project1.vcxproj -> D:\c++\OpenCv\c2_Project1\x64\Debug\c2_Project1.exe

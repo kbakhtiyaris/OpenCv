@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="c3_pro1.cpp">
+    <ClCompile Include="face_detection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
