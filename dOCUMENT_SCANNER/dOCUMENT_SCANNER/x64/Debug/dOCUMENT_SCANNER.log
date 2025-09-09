@@ -1,0 +1,24 @@
+﻿  scanner.cpp
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(43,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(47,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,49): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,49): warning C4244:         with
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,49): warning C4244:         [
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,49): warning C4244:             _Tp=int
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,49): warning C4244:         ]
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,46): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,46): warning C4244:         with
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,46): warning C4244:         [
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,46): warning C4244:             _Tp=int
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(96,46): warning C4244:         ]
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,39): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,39): warning C4244:         with
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,39): warning C4244:         [
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,39): warning C4244:             _Tp=int
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,39): warning C4244:         ]
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,31): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,31): warning C4244:         with
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,31): warning C4244:         [
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,31): warning C4244:             _Tp=int
+D:\c++\OpenCv\dOCUMENT_SCANNER\dOCUMENT_SCANNER\scanner.cpp(137,31): warning C4244:         ]
+  dOCUMENT_SCANNER.vcxproj -> D:\c++\OpenCv\dOCUMENT_SCANNER\x64\Debug\dOCUMENT_SCANNER.exe

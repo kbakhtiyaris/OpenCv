@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\c\u002B\u002B\\OpenCv\\c2_Project1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9ADE1D67-9261-4730-985A-868E1D37D5A0}|c2_Project1\\c2_Project1.vcxproj|D:\\c\u002B\u002B\\OpenCv\\c2_Project1\\c2_Project1\\face_detection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9ADE1D67-9261-4730-985A-868E1D37D5A0}|c2_Project1\\c2_Project1.vcxproj|solutionrelative:c2_Project1\\face_detection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "face_detection.cpp",
-              "DocumentMoniker": "D:\\c\u002B\u002B\\OpenCv\\c2_Project1\\c2_Project1\\face_detection.cpp",
-              "RelativeDocumentMoniker": "c2_Project1\\face_detection.cpp",
-              "ToolTip": "D:\\c\u002B\u002B\\OpenCv\\c2_Project1\\c2_Project1\\face_detection.cpp",
-              "RelativeToolTip": "c2_Project1\\face_detection.cpp",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAcwH4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-06T13:02:30.789Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
