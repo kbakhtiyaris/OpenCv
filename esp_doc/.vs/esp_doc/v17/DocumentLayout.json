@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c\u002B\u002B\\OpenCv\\esp_doc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8F866C-1721-4187-9331-322BA60B56C6}|esp_doc\\esp_doc.vcxproj|D:\\c\u002B\u002B\\OpenCv\\esp_doc\\esp_doc\\esp_doc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB8F866C-1721-4187-9331-322BA60B56C6}|esp_doc\\esp_doc.vcxproj|solutionrelative:esp_doc\\esp_doc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "esp_doc.cpp",
+              "DocumentMoniker": "D:\\c\u002B\u002B\\OpenCv\\esp_doc\\esp_doc\\esp_doc.cpp",
+              "RelativeDocumentMoniker": "esp_doc\\esp_doc.cpp",
+              "ToolTip": "D:\\c\u002B\u002B\\OpenCv\\esp_doc\\esp_doc\\esp_doc.cpp",
+              "RelativeToolTip": "esp_doc\\esp_doc.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T13:40:57.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

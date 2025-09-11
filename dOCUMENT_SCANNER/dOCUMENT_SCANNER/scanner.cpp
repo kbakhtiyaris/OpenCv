@@ -140,7 +140,7 @@ int main()
 	//display
 	imshow("Image", imgOriginal);
 	//imshow("Image dilation", imgThre);
-	//imshow("Image Warp", imgWarp);
+	imshow("Image Warp", imgWarp);
 	imshow("Image Crop", imgCrop);
 	// 📂 Folder where you want to save
 	string folder = "C:/Users/kbakhtiyar/Documents/document tester/";
