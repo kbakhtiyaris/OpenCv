@@ -1,0 +1,162 @@
+📄 Smart Document Scanner with OpenCV + ESP32 Feedback
+
+-
+-
+-
+-
+-
+-
+-
+🚀 Overview
+
+This project is a real-time document scanner built with C++ (OpenCV) and ESP32 microcontroller.
+
+It automatically detects documents from a live video stream, auto-crops & enhances them, and provides instant physical feedback using an ESP32 with LED + buzzer alerts.
+
+✨ Think of it as a DIY mini CamScanner, but with IoT integration!
+
+🎯 Features
+
+✅ Real-time document detection using OpenCV
+✅ Auto-perspective correction & cropping
+✅ Image enhancement for readability
+✅ Quality scoring (checks edges & stability before saving)
+✅ Automatic saving with timestamps (JPEG format)
+✅ Serial communication with ESP32
+✅ LED + Buzzer feedback for detection, saving, and lost documents
+✅ Cross-platform camera input: IP webcam or USB camera
+
+🛠️ Tech Stack
+
+C++17
+
+OpenCV 4.x (Computer Vision)
+
+Windows API for serial communication
+
+ESP32 (Arduino IDE) for hardware feedback
+
+Hardware: ESP32, LED, Buzzer, USB Camera / IP Webcam
+
+📷 Demo Flow
+
+Place a document in front of the camera.
+
+The software highlights the detected edges.
+
+ESP32 LED turns ON when document is stable.
+
+Countdown overlay ensures steady capture.
+
+Document is auto-cropped, enhanced, and saved.
+
+ESP32 LED blinks + buzzer beeps to confirm save.
+
+Remove the document → LED OFF + reset.
+
+🔌 Hardware Setup
+Components
+
+1x ESP32 Dev Board
+
+1x LED (with 220Ω resistor)
+
+1x Active Buzzer
+
+Jumper wires
+
+Breadboard
+
+Circuit Diagram
+
+LED → GPIO 2 (with resistor)
+
+Buzzer → GPIO 15
+
+GND → common ground
+
+💻 Installation & Setup
+1. Clone the repo
+git clone https://github.com/kbakhtiyaris/OpenCv/tree/dbe1784168c0d637d9563d874f749e3e26050f38/esp_doc
+cd esp_doc
+
+2. Install dependencies
+
+OpenCV 4.x
+
+Windows (Visual Studio / MSVC)
+
+3. Configure your stream
+
+Update in main.cpp:
+
+std::string comPort = "COM6"; // change COM6 according to Your comPort   
+std::string streamUrl = "http://192.168.1.106:8080/video";  // update it according to your ip webcam url
+std::string saveFolder = "C:/Users/YourName/Documents/Scans/"; // change YourName with appropiate path name
+
+4. Flash ESP32
+
+Upload esp_doc_notifier.ino using Arduino IDE.
+
+5. Run scanner
+./esp_doc.exe
+
+📂 Project Structure
+esp_doc/
+├ cpp/
+│ ├ main.cpp
+│ ├ BalancedDocumentDetector.cpp / .hpp
+│ ├ BalancedDocumentWarper.cpp / .hpp
+│ ├ QualityMetrics.cpp / .hpp
+│ └ Config.hpp
+├ esp32/
+│ └ esp32_scanner_feedback.ino
+├ samples/
+│ └ doc_2025-09-10_15-39-48.jpg
+└ README.md
+
+🧠 How It Works
+
+Frame Capture – video is read from webcam/IP stream.
+
+Preprocessing – grayscale → blur → edge detection + thresholding.
+
+Contour Detection – largest quadrilateral is assumed as document.
+
+Perspective Transform – warps the document into a top-down view.
+
+Image Enhancement – adaptive histogram & sharpening applied.
+
+Stability Check – ensures consistent detection before saving.
+
+Serial Communication – sends signals to ESP32 (DOC_DETECTED, DOC_SAVED, DOC_LOST).
+
+ESP32 Feedback – LED and buzzer confirm each event.
+
+📈 Future Improvements
+
+OCR (Optical Character Recognition) integration with Tesseract
+
+Multi-document batch scanning
+
+Wi-Fi transfer from ESP32 to cloud
+
+Mobile app integration
+
+🙌 Acknowledgements
+
+OpenCV
+ for computer vision
+
+ESP32
+ for IoT hardware
+
+👤 Author
+
+Khud Bakhtiyar Iqbal Sofi
+📍 Türkiye | 🎓 Mechatronics Engineer
+🔗 LinkedIn- www.linkedin.com/in/khud-bakhtiyar-iqbal-sofi-70a2b6374
+ • GitHub - https://github.com/kbakhtiyaris
+ • Gmail - khudbakhtiyariqbal7890@gmail.com
+ • Tiktok - https://www.tiktok.com/@kbakhtiyaris?_t=ZS-8zdlf3T0UYZ&_r=1
+✨ If you liked this project, star ⭐ the repo and connect with me!
