@@ -164,7 +164,7 @@ The server runs at: `http://<your-ubuntu-ip>:8080`
 
 ---
 
-## 📸 Demo (Optional)
+
 
 
 
@@ -175,6 +175,17 @@ MIT License – feel free to use and modify.
 
 ---
 
-👉 That’s a professional README. It looks like a **real-world IoT + AI project** and it will make recruiters take you very seriously.
 
-Do you want me to also prepare the **requirements.txt** file (Flask, OpenCV, SQLite, etc.) so your repo is plug-and-play?
+🛠️ Notes
+
+opencv-python and opencv-contrib-python both included (so you have full OpenCV features like DNN).
+
+tensorflow gives you the environment to run the SSD MobileNet v3 frozen graph.
+
+sqlalchemy for managing SQLite more cleanly (even if you’re using raw SQLite, it’s good for extending later).
+
+flask-cors in case you want to connect from different frontends (React, mobile, etc.).
+
+gunicorn lets you deploy Flask more “production style” later.
+
+pip install -r requirements.txt
