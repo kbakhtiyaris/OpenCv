@@ -1,4 +1,5 @@
 <img width="1366" height="662" alt="VirtualBox_ubuntu_24_16_09_2025_16_33_37" src="https://github.com/user-attachments/assets/2c970ea0-c5fa-4560-983f-1fdd45d7d535" /># Smart Fan with ESP32, OpenCV, and Flask
+![WhatsApp Image 2025-09-16 at 18 13 44_9d492521](https://github.com/user-attachments/assets/532ecb88-4eb1-4716-b2e2-e703d213de02)
 
 This project turns a **regular fan** into a **smart AI-powered fan**.
 
